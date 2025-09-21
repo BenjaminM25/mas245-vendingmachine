@@ -7,7 +7,6 @@
 class Soda
 {
 public:
-
     // Declare public visible constructor with three parameters.
     Soda(std::string name, unsigned int price, unsigned int inventory);
 
@@ -15,7 +14,6 @@ public:
     std::string name_;
     unsigned int price_;
     unsigned int inventory_;
-
 };
 
 #endif // SODA_H
